@@ -1,0 +1,74 @@
+.bookcontainer {
+    border: 1px solid #ddd;
+    padding: 25px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.srow {
+    padding: 10px 0;
+}
+
+.srow label {
+    padding-right: 5px;
+}
+
+.srow input {
+    background: #fff;
+    color: #000;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+
+.snrow {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.rm {
+    display: none;
+}
+
+.room {
+    padding: 10px 0;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+}
+
+.btnsubmit {
+    padding-top: 10px;
+}
+
+.btnsubmit button {
+    color: #fff;
+}
+
+
+
+.popup {
+    position: absolute;
+    top: 9%;
+    right: 7%;
+    left: 7%;
+}
+
+@media(min-width:426px) {
+    .popup {
+        top: 19%;
+        right: 20%;
+        left: 20%;
+    }
+}
+
+.popupcontainer {
+    padding: 30px 40px;
+    border: 2px solid #ddd;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.clbtn {
+    float: right;
+}

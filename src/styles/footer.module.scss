@@ -1,0 +1,36 @@
+.phicn svg {
+    width: 25px;
+    padding-right: 4px;
+}
+
+.foo {
+    text-align: center;
+    font-weight: 600;
+}
+
+.tabody {
+    width: 100%;
+}
+
+.hrs {
+    display: flex;
+    justify-content: center;
+}
+
+.rs {
+    flex-direction: row;
+}
+
+.address {
+    text-align: center;
+}
+
+@media(max-width:767px) {
+    .rs {
+        flex-direction: column;
+    }
+
+    .rst {
+        padding: 10px 0;
+    }
+}

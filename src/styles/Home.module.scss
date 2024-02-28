@@ -1,0 +1,144 @@
+.hero img {
+    object-fit: cover;
+    filter: blur(8px) !important;
+    -webkit-filter: blur(8px) !important;
+}
+
+.bdcontainer {
+    padding: 30px 0;
+}
+
+
+.roomcards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+}
+
+@media(max-width: 1023px) {
+    .roomcards {
+        flex-direction: column;
+    }
+
+    .crd {
+        margin: 5px 0;
+    }
+}
+
+.col {
+    flex: 1 0 180px;
+}
+
+.col img {
+    width: 24px;
+}
+
+@media(max-width:576px) {
+    .bdcontainer {
+        padding: 30px 10px;
+    }
+
+
+
+    .roomcards {
+        padding: 0 10px;
+    }
+}
+
+@media(min-width:1024px) {
+    .crdleft {
+        margin-right: 5px;
+    }
+
+    .crdright {
+        margin-left: 5px;
+    }
+}
+
+.policies {
+    padding: 30px 0;
+}
+
+.polibody {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.lspolicy {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-left: 10px;
+}
+
+@media(min-width:1024) {
+    .lspolicy {
+        padding-left: 2rem;
+    }
+}
+
+.lspolicy li {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 26px;
+    padding-right: 15px;
+}
+
+@media(min-width:768px) {
+    .lspolicy li {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+
+.lspolicy li span {
+    display: block;
+}
+
+.rmls {
+    list-style: none;
+    padding-left: 10px;
+}
+
+@media(min-width: 768px) {
+    .rmls {
+        columns: 2;
+        -webkit-columns: 2;
+        -moz-columns: 2;
+    }
+}
+
+@media(min-width:1024px) {
+    .rmls {
+        padding-left: 2rem;
+    }
+}
+
+.rmls li {
+    padding: 20px 0;
+}
+
+.rmls li span {
+    display: block;
+}
+
+.strip {
+    background: #f5f5f5;
+    border-radius: 12px;
+    line-height: 1.6rem;
+}
+
+@media(max-width:576px) {
+
+    .policies {
+        padding: 30px 10px;
+    }
+
+    .lspolicy {
+        flex-direction: column;
+    }
+}
